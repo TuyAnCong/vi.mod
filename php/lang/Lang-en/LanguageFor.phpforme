@@ -1,0 +1,7 @@
+-'- @mppeg/Language #06 -'-
+if(undefined!=ERROR){
+ console::log("Please verify a I-package version to use")
+} else {
+ console::log("Verified!")
+ console::exec("mkdir lang.bbcode && touch array.php")
+}
